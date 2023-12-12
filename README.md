@@ -8,6 +8,7 @@ Northwestern Polytechnical University, Xi’an, China
 <div align='center'> 
 Shaanxi Key Laboratory of Information Acquisition and Processing
 </div>
+
 ## Abstract
 In this paper, we present *continuous parametric optical flow*, a parametric representation of **dense and continuous motion over arbitrary time interval**. In contrast
 to existing discrete-time representations (i.e.flow in between consecutive frames),
