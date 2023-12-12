@@ -1,12 +1,13 @@
 # [NeurIPS 2023] Continuous Parametric Optical Flow
 <div align='center'> 
-#### Jianqin Luo*, Zhexiong Wan*, Yuxin Mao, Bo Li, Yuchao Dai† 
+Jianqin Luo*, Zhexiong Wan*, Yuxin Mao, Bo Li, Yuchao Dai† 
 </div>
-
+<div align='center'> 
 Northwestern Polytechnical University, Xi’an, China
-
+</div>
+<div align='center'> 
 Shaanxi Key Laboratory of Information Acquisition and Processing
-
+</div>
 ## Abstract
 In this paper, we present *continuous parametric optical flow*, a parametric representation of **dense and continuous motion over arbitrary time interval**. In contrast
 to existing discrete-time representations (i.e.flow in between consecutive frames),
