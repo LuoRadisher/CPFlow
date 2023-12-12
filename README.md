@@ -53,7 +53,7 @@ using the *ade_occ*
 python eval_real_scene.py --dataset_mode davis --method ade_rmse
 ```
 
-4. The [trained weight](https://pan.baidu.com/s/18U5F6PgS0eOJXV1A-x_QLw?pwd=hudd) ```cp_flow_30.pth``` is loaded as default 
+4. The [weight](https://pan.baidu.com/s/18U5F6PgS0eOJXV1A-x_QLw?pwd=hudd) ```cp_flow_30.pth``` is loaded as default 
 
 ## Training
 Due to the large-scale transferring, we will upload the whole training dataset simulated by [kubric](https://github.com/google-research/kubric) and training codes later. 
