@@ -1,6 +1,7 @@
 # [NeurIPS 2023] Continuous Parametric Optical Flow
 <center>Jianqin Luo*, Zhexiong Wan*, Yuxin Mao, Bo Li, Yuchao Dai†</center>
-Northwestern Polytechnical University, Xi’an, China
+
+<center>Northwestern Polytechnical University, Xi’an, China</center>
 
 Shaanxi Key Laboratory of Information Acquisition and Processing
 
