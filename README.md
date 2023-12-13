@@ -9,7 +9,7 @@ Northwestern Polytechnical University, Xi’an, China
 Shaanxi Key Laboratory of Information Acquisition and Processing
 </div>
 <div align='center'> 
-[Paper](https://openreview.net/pdf?id=ZZgfS1DbmO)
+<a href="https://openreview.net/pdf?id=ZZgfS1DbmO" target="_blank">Paper</a>
 </div>
 
 ## Abstract
