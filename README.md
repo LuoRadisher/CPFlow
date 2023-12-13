@@ -10,6 +10,7 @@ Shaanxi Key Laboratory of Information Acquisition and Processing
 </div>
 <div align='center'> 
 <a href="https://openreview.net/pdf?id=ZZgfS1DbmO" target="_blank">Paper</a>
+  <a href="https://npucvr.github.io/CPFlow" target="_blank">Project</a>
 </div>
 
 ## Abstract
