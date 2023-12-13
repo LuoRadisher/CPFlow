@@ -8,6 +8,9 @@ Northwestern Polytechnical University, Xi’an, China
 <div align='center'> 
 Shaanxi Key Laboratory of Information Acquisition and Processing
 </div>
+<div align='center'> 
+[Paper](https://openreview.net/pdf?id=ZZgfS1DbmO)
+</div>
 
 ## Abstract
 In this paper, we present *continuous parametric optical flow*, a parametric representation of **dense and continuous motion over arbitrary time interval**. In contrast
