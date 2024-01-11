@@ -306,7 +306,13 @@ def eval_kinetics_dataset(kinetics_path,args):
 
         print(f'valid_scene_num:{all_scene_length}')
         #all_scene_metric = all_scene_loss/(all_scene_length-np.expand_dims(scene_abnormal,1).repeat(3,axis=1))
-        all_scene_metric = all_scene_loss/(all_scene_length) 
+        #all_scene_metric = all_scene_loss/(all_scene_length)
+        
+        if args.method == 'ade_occ':
+            all_scene_metric = all_scene_loss/(dataset_length-np.expand_dims(scene_abnormal,1).repeat(3,axis=1))
+        elif args.method == 'ade_rmse':
+            all_scene_metric = all_scene_loss/(dataset_length-scene_abnormal)
+            
         print(f'Total_loss of kinetics:{all_scene_metric}')
         
 
