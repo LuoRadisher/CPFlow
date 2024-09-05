@@ -60,7 +60,16 @@ python eval_real_scene.py --dataset_mode davis --method ade_rmse
 4. Download the [weight](https://pan.baidu.com/s/18U5F6PgS0eOJXV1A-x_QLw?pwd=hudd) ```cp_flow_30.pth``` and put it into folder ```./checkpoints```
 
 ## Training
-Due to the large-scale transferring, we will upload the whole training dataset simulated by [kubric](https://github.com/google-research/kubric) and training codes later. 
+## Training
+We recommend parallel training with multiple GPUs. The ```dataset_dir``` and ```save_path``` denote the path where the training dataset is stored and the directory where the model weights are saved, respectively. A training sample is below:
+
+- *Example: use a single machine with 4 GPUs for training* 
+```python
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 --nnodes=1 --node_rank=0 --master_addr="YOUR_IP" --master_port="YOUR_PORT"  kubric_sparse_train_all.py --dataset_dir "YOUR_DATASET_PATH" --save_path "YOUR_SAVE_PATH"
+```
+We also provide the sampler code for variable-length training. Please refer to ```kubric_dataset.py```.
+
+Due to the large-scale transferring, we will upload the whole training dataset simulated by [kubric](https://github.com/google-research/kubric) later. 
 
 ## Acknowledgement
 Thanks for the inspiration from the following work:
