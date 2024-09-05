@@ -48,7 +48,7 @@ using the *ade_occ*
 python eval_real_scene.py --dataset_mode davis --method ade_rmse
 ```
 
-4. The trained weight ```cp_flow_30.pth``` is loaded as default 
+4. Download the [weight](https://pan.baidu.com/s/18U5F6PgS0eOJXV1A-x_QLw?pwd=hudd) ```cp_flow_30.pth``` and put it into folder ```./checkpoints```
 
 ## Training
 We recommend parallel training with multiple GPUs. The ```dataset_dir``` and ```save_path``` denote the path where the training dataset is stored and the directory where the model weights are saved, respectively. A training sample is below:
