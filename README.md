@@ -29,7 +29,10 @@ outperforms than the flow-based and point-tracking approaches for fitting long-t
 and variable sequences.
 <center>
   <figure>
-<img src="visualization/visualization.png" alt="Trajectory">
+<img src="visualization/00777_16.png" alt="Synthetic Trajectory" width="125" height ="125">
+<img src="visualization/00035_16.png" alt="Synthetic Trajectory" width="125" height ="125">
+<img src="visualization/13_gold-fish_24.png" alt="Real Trajectory" width="125" height ="125">
+<img src="visualization/28_loading_24.png" alt="Real Trajectory" width="125" height ="125">
   </figure>
 </center>
 
