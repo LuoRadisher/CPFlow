@@ -171,13 +171,13 @@ class KubricDataset(Dataset):
 
         self.dataset_location = dataset_location
         self.sample_num = data_params['sample_num']             # sampled_num_frames
-        #self.sample_range = data_params['sample_range']         # 确定变帧率范围 list
-        self.supervised_num = data_params['supervised_num']     # 监督数量
-        self.min_sample_length = data_params['min_sample_length'] #最低采样长度范围
+        #self.sample_range = data_params['sample_range']         
+        self.supervised_num = data_params['supervised_num']     # sup_num for training
+        self.min_sample_length = data_params['min_sample_length'] #mini_valid_length
         #assert self.sample_range_max == 8
 
-        self.curve_type = data_params['curve_type']             # 曲线类型
-        self.encoder_type = data_params['encoder_type']         # 编码器类型
+        self.curve_type = data_params['curve_type']             # curve_type
+        self.encoder_type = data_params['encoder_type']         # encoder_type
         self.sparse_num = data_params['sparse_num']
         
 
