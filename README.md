@@ -35,15 +35,6 @@ and variable sequences.
         <td ><center> <img src="visualization/28_loading_24.png" alt="Real Trajectory"></center></td>
     </tr>
 </table>
-<center>
-  <figure>
-      <img src="visualization/00777_16.png" alt="Synthetic Trajectory" width="155" height ="155">
-      <img src="visualization/00035_16.png" alt="Synthetic Trajectory" width="155" height ="155">
-      <img src="visualization/13_gold-fish_24.png" alt="Real Trajectory" width="155" height ="155">
-      <img src="visualization/28_loading_24.png" alt="Real Trajectory" width="155" height ="155">
-  </figure>
-</center>
-
 
 ## Requirements
 Python 3.8.10 with basic conda environment. Install the requirements as follow:
