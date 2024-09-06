@@ -28,12 +28,10 @@ and implicit feature optimization, our model focuses on motion continuity and
 outperforms than the flow-based and point-tracking approaches for fitting long-term
 and variable sequences.
 <center>
-  <figure>
 <img src="visualization/00777_16.png" alt="Synthetic Trajectory" width="125" height ="125">
 <img src="visualization/00035_16.png" alt="Synthetic Trajectory" width="125" height ="125">
 <img src="visualization/13_gold-fish_24.png" alt="Real Trajectory" width="125" height ="125">
 <img src="visualization/28_loading_24.png" alt="Real Trajectory" width="125" height ="125">
-  </figure>
 </center>
 
 ## Requirements
@@ -62,7 +60,6 @@ python eval_real_scene.py --dataset_mode davis --method ade_rmse
 
 4. Download the [weight](https://pan.baidu.com/s/18U5F6PgS0eOJXV1A-x_QLw?pwd=hudd) ```cp_flow_30.pth``` and put it into folder ```./checkpoints```
 
-## Training
 ## Training
 We recommend parallel training with multiple GPUs. The ```dataset_dir``` and ```save_path``` denote the path where the training dataset is stored and the directory where the model weights are saved, respectively. A training sample is below:
 
