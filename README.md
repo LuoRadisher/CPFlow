@@ -1,4 +1,4 @@
-# [NeurIPS 2023] Continuous Parametric Optical Flow
+# [NeurIPS 2023] <center>Continuous Parametric Optical Flow</center>
 <div align='center'> 
 Jianqin Luo*, Zhexiong Wan*, Yuxin Mao, Bo Li, Yuchao Dai† 
 </div>
